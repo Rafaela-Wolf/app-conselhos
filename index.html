@@ -7,26 +7,28 @@
     <meta name="description" content="app gerador de conselhos">
     <title>Gerando conselhos</title>
 
-    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/variables.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 <body>
     <main class="card">
         <div class="container">
-            <p class="advice-number">Advice 117</p>
-            <p class="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+            <p id="advice-number" class="advice-number">Advice 117</p>
+            <p id="advice" class="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
             <picture>
-                <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
-                <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
+                <source srcset="src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+                <img src="src/images/pattern-divider-desktop.svg" alt="Pattern divider">
             </picture>
-            <button class="advice-update">
-                <img src="./src/images/icon-dice.svg" alt="Dice icon">
+            <button id="btn-advice" class="advice-update" id="btn-advice">
+                <img src="src/images/icon-dice.svg" alt="Dice icon">
             </button>
         </div>
     </main>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
 </body>
 </head>
 </html>

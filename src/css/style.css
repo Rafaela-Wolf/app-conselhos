@@ -46,6 +46,8 @@ body {
     border: none;
     background-color: var(--advice-dice-title-color);
     transform: translateY(50%);
+    position: relative;
+    top: 30px;
 }
 
 .container .advice-update:hover{
